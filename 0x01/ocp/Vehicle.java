@@ -1,6 +1,6 @@
 package ocp;
 
-public class Vehicle implements IVehicleMotorcycle {
+public class Vehicle {
     private String color;
     private String year;
     private double engine;
@@ -24,12 +24,8 @@ public class Vehicle implements IVehicleMotorcycle {
     }
 
     public void startVehicle(){
-        System.out.println("Ligando os motores");
+        System.out.println("Ligando os motores com Interface");
     }
 
-	@Override
-	public void configureVehicle(String color, String year, double engine) {
-		// TODO Auto-generated method stub
-		
-	}
+
 }
