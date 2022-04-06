@@ -1,5 +1,5 @@
 
-public class NotificationService{
+public class NotificationService extends CustomerService{
 	//Serviço de notificação
 	public void sendEmail(){
 
