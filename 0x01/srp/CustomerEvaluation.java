@@ -1,6 +1,6 @@
 
 
-public class CustomerEvaluation {
+public class CustomerEvaluation{
 	//Avaliação do cliente
 
     public void evaluationCustomer(){        

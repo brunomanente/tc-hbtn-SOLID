@@ -1,20 +1,13 @@
 
-public class NotificationService {
+public class NotificationService{
 	//Serviço de notificação
-	
-	   public void sendSMS(){
+	public void sendEmail(){
 
-	    }
+    }
+	public void sendSMS(){
 
-	    public void sendEmail(){
+    }
+	public void notifyCustomer(){
+	}
 
-	    }
-
-
-	    public void notifyCustomer(){
-	    }
-
-    
-
-	
 }
