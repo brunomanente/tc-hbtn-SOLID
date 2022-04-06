@@ -1,4 +1,3 @@
-package ocp;
 
 public class Main {
     private static TypeVehicle typeVehicle;

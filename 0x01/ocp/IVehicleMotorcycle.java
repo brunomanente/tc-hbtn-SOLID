@@ -1,4 +1,4 @@
-package ocp;
+
 
 public interface IVehicleMotorcycle {
 
