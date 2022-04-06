@@ -1,6 +1,6 @@
 
 
-public class CustomerService {
+abstract class CustomerServices {
 	
 	//Atendimento ao Cliente
 	
