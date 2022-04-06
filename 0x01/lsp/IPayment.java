@@ -1,4 +1,6 @@
+
+
 public interface IPayment {
-    void validate() throws Exception;
+	void validate() throws Exception;
     void collectPayment();
 }
