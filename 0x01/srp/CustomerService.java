@@ -1,9 +1,6 @@
 
 
-abstract class CustomerServices {
-	
-	//Atendimento ao Cliente
-	
+public class CustomerService {
 
 	public void ListCustomer(){
     }
@@ -17,4 +14,18 @@ abstract class CustomerServices {
     public void deleteCustomer(){
     }
 
+    public void notifyCustomer(){
+    }
+
+    public void sendSMS(){
+
+    }
+
+    public void sendEmail(){
+
+    }
+
+    public void evaluationCustomer(){        
+    }
+	
 }

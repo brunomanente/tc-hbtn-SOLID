@@ -1,7 +1,27 @@
 
+public class CustomerEvaluation {
+	public void ListCustomer(){
+    }
 
-public class CustomerEvaluation extends CustomerService{
-	//Avaliação do cliente
+    public void addCustomer(){
+    }
+
+    public void updateCustomer(){
+    }
+
+    public void deleteCustomer(){
+    }
+
+    public void notifyCustomer(){
+    }
+
+    public void sendSMS(){
+
+    }
+
+    public void sendEmail(){
+
+    }
 
     public void evaluationCustomer(){        
     }

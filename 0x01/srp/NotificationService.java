@@ -1,13 +1,29 @@
 
-public class NotificationService extends CustomerService{
-	//Serviço de notificação
-	public void sendEmail(){
+public class NotificationService {
+
+	public void ListCustomer(){
+    }
+
+    public void addCustomer(){
+    }
+
+    public void updateCustomer(){
+    }
+
+    public void deleteCustomer(){
+    }
+
+    public void notifyCustomer(){
+    }
+
+    public void sendSMS(){
 
     }
-	public void sendSMS(){
+
+    public void sendEmail(){
 
     }
-	public void notifyCustomer(){
-	}
 
+    public void evaluationCustomer(){        
+    }
 }
