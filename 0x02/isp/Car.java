@@ -1,5 +1,5 @@
 
-public class Car implements IVehicleCar, IMotorVehicle {
+public class Car implements IVehicle, IMotorVehicle, IVehicleCar {
 
 	@Override
 	public void startVehicle() {
