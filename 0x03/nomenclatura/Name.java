@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Name {
 	
-	    public Date d; // modified date
-	    public List<Testcase> find(Name.User user){}; //find all Testcases by User
+	 public Date modifiedDate;
+	    public List<Testcase> findAllTestcasesByUser(Name.User user){};
 
 	  
 	    public Account[] AccountList; 
