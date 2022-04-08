@@ -9,7 +9,7 @@ public class Name {
 	    public List<Testcase> findAllTestcasesByUser(Name.User user){};
 
 	  
-	    public Account[] AccountList; 
+	    public List<Account> AccountList;
 
 	   
 	    public void deleteUser(Name.User user){};
@@ -18,11 +18,11 @@ public class Name {
 	    public URL url;
 
 	   
-	    public class TableRepresenter{};
-	    public void car(){}; 
+	    public class TableRepresent {};
+	    public void saveCar(){}; 
 
 	  
-	    public saveUser(){}; createAccount(){}; generateContract(){};
+	    public saveUser(){}; saveAccount(){}; saveContract(){};
 
 
 	     
