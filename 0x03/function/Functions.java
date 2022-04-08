@@ -7,22 +7,26 @@ public class Functions {
         outRepo.save(expense);
     }
 
-    @PostMapping("/user")
-    public User saveUser(User user){
-        return userService.save(user);
-    }
+	
+	 @PostMapping("/user")
+	    public User saveUser(User user){
+	        return userService.userRepository.save(user);
+	    } 
       
+    
 
     public void saveUser(User user){};
+    
+    
 
     public User saveUser(User user){
+        if(user.isAdmin){
+        user.setRole(user);
+      }
         return userRepository.save(user);
-    }
-    public void setRole(User user){
-        user.setRole(user);     
-    }
+      }
 
-
+    
     public Environment getEnvironment(){
         return environmentService.getEnvironment(getVersion());
     }
