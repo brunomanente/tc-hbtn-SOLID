@@ -12,14 +12,14 @@ public class Name {
 	   
 	    public void deleteUser(Name.User pUser){}; 
 	  
-	    public URL r;
+	    public URL url;
 	 
 	    public class TableRepresent {};
 	    public void saveCar(){};
 	   
 	    public saveUser(){}; saveAccount(){}; saveContract(){};
 		 
-	    public int daysInYear = 360;
+	    public int DAYS_IN_YEAR = 360;
 	    public int hoursInWeek = 168;
 	  
 	}
