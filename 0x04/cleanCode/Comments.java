@@ -18,11 +18,7 @@ public class Comments {
     }
 
 
-    // 3. Too much information
-    /*
-     * This class evaluates the overview of testcases which are cancelled from client
-     * the reasons of cancellation play a role in evaluation blablabla
-     */
+   
 
 
     /**
