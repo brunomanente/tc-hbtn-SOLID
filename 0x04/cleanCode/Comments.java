@@ -22,6 +22,6 @@ public class Comments {
      * @since 16.0
      */
     public List<Result> publishResults(Date date) {
-       
+        // some business logic here
     }
 }
