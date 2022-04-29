@@ -1,0 +1,11 @@
+Sonarqube
+
+Erros
+    - Replace this <i> tag by <em>.
+    - Add a description to this table.
+    - Remove this deprecated "font" element.
+
+Vulnerabilidade
+- Add a private constructor to hide the implicit public one.
+- Complete the task associated to this TODO comment.
+-This block of commented-out lines of code should be removed.
